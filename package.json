@@ -5,6 +5,9 @@
     "keywords": [
         "node-red"
     ],
+    "publishConfig": {
+    "registry": "https://npmregistry.apps.internal.3ops.be"
+  },
     "homepage": "https://dashboard.flowfuse.com",
     "repository": {
         "type": "git",
@@ -109,7 +112,7 @@
         "vite-plugin-pwa": "^1.0.0",
         "vitepress": "^1.0.2",
         "vue-router": "^4.5.0",
-        "vuetify": "^3.9.0",
+        "vuetify": "3.8.12",
         "vuex": "^4.1.0",
         "workbox-core": "^7.3.0",
         "workbox-precaching": "^7.3.0",
